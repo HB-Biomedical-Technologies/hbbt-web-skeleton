@@ -1,0 +1,19 @@
+
+Scalpel version 1.60 audit file
+Started at Sun Feb  2 17:29:13 2014
+Command line:
+scalpel /dev/sda1 -o output 
+
+Output directory: /opt/bitnami/apps/concrete5/htdocs/output
+Configuration file: /etc/scalpel/scalpel.conf
+
+Opening target "H="
+
+The following files were carved:
+File		  Start			Chop		Length		Extracted From
+ERROR: The configuration file didn't specify any file types to carve.
+(If you're using the default configuration file, you'll have to
+uncomment some of the file types.)
+
+
+Completed at Sun Feb  2 17:29:13 2014

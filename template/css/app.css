@@ -1,0 +1,278 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+   height: 100%;
+   background: none repeat scroll 0% 0% rgb(226, 226, 226);
+   font-family: 'Roboto', sans-serif;
+   font-size: 0.95em;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+    height: 60px;
+    /*background-color: #f5f5f5;*/
+    margin-top: 35px;
+
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+    padding: 30px 15px 0px;
+
+}
+.container .credit {
+    margin: 20px 0;
+}
+
+#footer > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+/*================================*/
+
+.navbar.my-navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+}
+
+.navbar.my-navbar ul li a{
+    padding-top: 30px;
+    color: #6CAEEB;
+}
+
+.navbar.my-navbar ul li a:hover{
+    color: rgb(200, 200, 200);
+}
+
+.navbar.my-navbar ul li a em{
+    display:none;
+}
+
+.navbar.my-navbar ul li a.active {
+    color: #fff;
+    background-color: rgb(51, 51, 51);
+    height: 80px;
+}
+
+.navbar.my-navbar ul li a.active em{
+    display:block;
+    overflow:hidden;
+    border:6px solid #06a;
+    border-color:rgb(66, 139, 202) transparent;
+    border-width:12px 12px 0 12px;
+    position:absolute;
+    left:50%;
+    margin-left: -12px;
+}
+
+
+.paper{
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.2);
+    border: 1px solid #c0c0c0;
+    /*padding-bottom: 15px;*/
+}
+
+.home-strip-panel{
+    color: rgb(100, 102, 105);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*margin-bottom: 35px;*/
+}
+
+.home-strip-panel a{
+    text-decoration: none;
+}
+
+
+.home-strip-panel > .row a .text-box {
+    width: 85%;
+    padding-left: 15%;
+}
+
+.main-content{
+    background-color: rgb(251, 251, 251);
+    /* padding-left: 5%; */
+    /* padding-right: 5%; */
+    padding-top: 5px;
+    /* padding-bottom: 15px; */
+}
+
+.copyright-text{
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
+    color: rgb(144, 144, 144);
+    font-weight: 800;
+}
+
+.hero-unit-text {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-phone-number{
+    font-weight: 900;
+    font-size: 120%;
+    color: rgb(66, 139, 202);
+}
+
+/*
+ .right-column-wrapper{
+    //border-left: 1px solid #c0c0c0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+*/ 
+
+.left-column-wrapper{
+    border-right: 1px solid rgb(238, 238, 238);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+/* #wrap > div > div > div:nth-child(5) > div > div > div > div:nth-child(1) > ul{
+	margin: 0 5%;
+} */
+
+/*.carousel-control.my-control{*/
+    /*bottom: 20px;*/
+/*}*/
+
+.panel .panel-heading.blue{
+    background-color: #6CAEEB;
+    border-color: #90A2D1;
+}
+
+.img-thumbnail.rounded{
+    border-radius: 32px;
+    border-bottom-width: 2px;
+}
+
+/*================================*/
+.section{	
+	border-bottom: 1px solid #eeeeee;
+	padding-top:1%;
+	padding-bottom: 1%;	
+}
+.section.left{
+	background: #eee;
+}
+.section.right{	
+}
+.section .head {	
+	margin: 0 5%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+.section .head  h3  {
+	font-weight: bold;
+}
+.section .head  h2 {
+	font-weight: 200;
+}
+.section.left .head{
+	text-align: left;	
+}
+.section.right .head{
+	text-align: right;
+}
+.section.center .head{
+	text-align: center;	
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.section .body{
+	margin: 0 5%;
+}
+.section.address{
+	color: #666;	
+}
+.section.address .head h3{
+	font-weight: 200;
+}
+.section.address .body  h3{
+	font-weight: 200;
+}
+/*================================*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto';
+}
+/*================================*/
+#map-canvas {
+  	width: 100%; 
+  	height: 300px;
+	margin: 0;
+	padding: 15px;
+}
+
+.scroll-top {
+   position:fixed;
+   bottom:0;
+   right:6%;
+   z-index:100;
+   background: #f2f3f2;
+   font-size:24px;
+   border-top-left-radius:3px;
+   border-top-right-radius:3px;
+}
+.scroll-top a:link,.scroll-top a:visited {
+  color:#222;
+}
+/*================================*/
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Regular-webfont.eot');
+    src: url('../fonts/roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/Roboto-Regular-webfont.woff') format('woff'),
+         url('../fonts/roboto/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto/Roboto-Regular-webfont.svg#RobotoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Bold-webfont.eot');
+    src: url('../fonts/roboto/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/Roboto-Bold-webfont.woff') format('woff'),
+         url('../fonts/roboto/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/roboto/Roboto-Bold-webfont.svg#RobotoBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Thin-webfont.eot');
+    src: url('../fonts/roboto/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/Roboto-Thin-webfont.woff') format('woff'),
+         url('../fonts/roboto/Roboto-Thin-webfont.ttf') format('truetype'),
+         url('../fonts/roboto/Roboto-Thin-webfont.svg#RobotoThin') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+
