@@ -76,7 +76,7 @@
                           <!-- Wrapper for slides -->
                           <div class="carousel-inner">
                               <div class="item active">
-                                  <img class="img-responsive" src="pics/head-c1.jpg" width="100%" />
+                                  <img class="img-responsive" src="pics/photo1.gif" width="1440" height="440"/>
                                   <div class="carousel-caption">
                                       <h2 class="pull-right"><b>Biomedical Engineering</b></h2>
                                   </div>
@@ -169,91 +169,90 @@
 							</div>
 						</div>	
 						<!--Section-->
-						<div class="row">							
+						<div class="row">								
 							<div class="col-md-12">
 								<div class="section left">
-									<div class="row">
-										<div class="col-md-2">											
-											<a class="pull-left" href="#">
-												<img src="pics/132564_m.jpg" height="200px" alt="Medical spare parts" />
-											</a>												
-										</div>
-										<div class="col-md-10">
-											<div class="head">
-												<h3><span class="glyphicon glyphicon-link"></span> Biomedical Engineering</h3>
-												
-											</div>
-											<div class="body">										
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
-											</div>
-										</div>									
+									<div class="head">
+										<h3><span class="glyphicon glyphicon-link"></span> Biomedical Engineering</h3>                                        									
+									</div>
+									<div class="body">										
+										<ul class="media-list">
+											<li class="media">
+												<a class="pull-left" href="#">
+												  <img class="media-object img-thumbnail rounded" src="pics/132564_m.jpg" height="175" width="175" alt="Medical spare parts" />
+												</a>
+												<div class="media-body">													
+													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
+												</div>
+											</li>
+										</ul>
 									</div>									
 								</div>																	
 							</div>
 						</div>
 						<!--Section-->
-						<div class="row">							
+						<div class="row">								
 							<div class="col-md-12">
 								<div class="section right">
-									<div class="row">										
-										<div class="col-md-10">
-											<div class="head">
-												<h3><span class="glyphicon glyphicon-fire"></span> Software Engineering</h3>                                        									
-											</div>
-											<div class="body">										
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
-											</div>
-										</div>
-										<div class="col-md-2">											
-											<a class="pull-right" href="#">
-												<img src="pics/23864938_m.jpg" height="200px" alt="Medical spare parts" />
-											</a>												
-										</div>										
-									</div>									
+									<div class="head">
+										<h3><span class="glyphicon glyphicon-fire"></span> Software Engineering</h3> 
+									</div>
+									<div class="body">										                                      
+										<ul class="media-list">
+											<li class="media">
+												<a class="pull-right" href="#">
+												  <img class="media-object img-thumbnail rounded" src="pics/23864938_m.jpg" height="175" width="175" alt="Development" />
+												</a>
+												<div class="media-body">													
+													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
+												</div>
+											</li>
+										</ul>
+									</div>
 								</div>																	
 							</div>
 						</div>
 						<!--Section-->
-						<div class="row">							
+						<div class="row">								
 							<div class="col-md-12">
 								<div class="section left">
-									<div class="row">
-										<div class="col-md-2">											
-											<a class="pull-left" href="#">
-												<img src="pics/15648_m.jpg" height="200px" alt="Medical spare parts" />
-											</a>												
-										</div>
-										<div class="col-md-10">
-											<div class="head">												
-												<h3><span class="glyphicon glyphicon-export"></span> Consulting</h3>												
-											</div>
-											<div class="body">										
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
-											</div>
-										</div>									
-									</div>									
+									<div class="head">
+										<h3><span class="glyphicon glyphicon-export"></span> Consulting</h3>                                          
+									</div>
+									<div class="body">										
+										<ul class="media-list">
+											<li class="media">
+												<a class="pull-left" href="#">
+												  <img class="media-object img-thumbnail rounded" src="pics/15648_m.jpg" height="175" width="175" alt="Medical spare parts" />
+												</a>
+												<div class="media-body">													
+													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
+												</div>
+											</li>
+										</ul>
+									</div>
 								</div>																	
 							</div>
 						</div>
 						<!--Section-->
-						<div class="row">							
+						<div class="row">								
 							<div class="col-md-12">
 								<div class="section right">
-									<div class="row">										
-										<div class="col-md-10">
-											<div class="head">												
-												<h3><span class="glyphicon glyphicon-plane"></span> Research & Development</h3>												
-											</div>
-											<div class="body">										
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
-											</div>
-										</div>
-									<div class="col-md-2">											
-											<a class="pull-right" href="#">
-												<img src="pics/24407249_m.jpg" height="200px" alt="Medical spare parts" />
-											</a>												
-										</div>										
-									</div>									
+									<div class="head">
+										<h3><span class="glyphicon glyphicon-plane"></span> Research & Development</h3>
+									</div>
+									<div class="body">										                                       
+										<ul class="media-list">
+											<li class="media">
+												<a class="pull-right" href="#">
+												  <img class="media-object img-thumbnail rounded" src="pics/24407249_m.jpg" height="175" width="175" alt="Medical spare parts" />
+												</a>
+												<div class="media-body">													
+													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
+												</div>
+											</li>
+										</ul>
+									</div>
 								</div>																	
 							</div>
 						</div>
@@ -277,7 +276,7 @@
 						<!--Address-->
 						<div class="row">								
 							<div class="col-md-12">
-								<div class="section address">
+								<div class="section address" style="background:#101010;">
 									<div class="head">
 										<h3>H&B Biomedical Technologies s.r.o.</h3>
 									</div>
