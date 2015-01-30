@@ -2,7 +2,7 @@
 .vagrant/*
 
 #IDE
-.idea/*
+**/.idea/*
 
 # Concrete5
 www/config/site.php

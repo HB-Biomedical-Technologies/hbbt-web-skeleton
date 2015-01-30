@@ -142,7 +142,7 @@ code {
 }
 a img.main{
 	box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.4);
-	border: 2px solid #fff;
+	/*border: 2px solid #fff;*/
 }
 
 .section   h3  {
@@ -203,6 +203,24 @@ h1,h2,h3,h4,h5,h6{
 }
 .scroll-top a:link,.scroll-top a:visited {
   color:#222;
+}
+.social-sprite{
+    height: 25px;
+    display: inline-block;
+    background-image: url('../pics/social-sprite.png');
+    background-repeat: no-repeat; 
+}
+.social-sprite.linkedin{
+    width: 33px;
+    background-position: 0 0;
+}
+.social-sprite.twitter{
+    width: 31px;
+    background-position: -33px 0;
+}
+.social-sprite.github{
+    width: 25px;
+    background-position: -64px 0;
 }
 
 /*================================*/
