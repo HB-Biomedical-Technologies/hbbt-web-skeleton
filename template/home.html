@@ -33,7 +33,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<!-- Fixed navbar -->
-					<nav id="top-menu-nav" class="navbar my-navbar navbar-inverse" role="navigation">
+					<nav id="top-menu-nav" class="navbar my-navbar navbar-inverse" role="navigation"s>
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -45,17 +45,17 @@
 							</a>
 						</div>
                           <!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<div class="collapse navbar-collapse navbar-ex1-collapse" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
 							<ul class="nav navbar-nav navbar-right">                                  
-								<li><a href="#"><b>:: SERVICES ::</b><em></em></a></li>                                  								 
+								<li><a href="#services"><b>:: SERVICES ::</b><em></em></a></li>		 
 								<li><a href="#"><b>:: BLOG ::</b><em></em></a></li>
-								<li ><a href="#"><b>:: COMPANY ::</b><em></em></a></li>
-								<li><a href="#"><b>:: CONTACT ::</b><em></em></a></li>
+								<li ><a href="#company-detail"><b>:: COMPANY ::</b><em></em></a></li>
+								<li><a href="#contact"><b>:: CONTACT ::</b><em></em></a></li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
                     </nav>
                 </div>
-            </div>													
+            </div>
 			<!-- Header -->
 			<div class="row" >
 				<div class="col-md-12">
@@ -71,7 +71,7 @@
 					<div class="home-strip-panel">
 						<div class="row">
 							<div class="col-md-4">
-								<a href="#">
+								<a href="#company-detail">
 									<div class="text-box">
 										<h3>
 											Who we are
@@ -82,7 +82,7 @@
 								</a>
 							</div>
 							<div class="col-md-4">
-								<a href="#">
+								<a href="#services">
 									<div class="text-box">
 										<h3>
 											Our work
@@ -93,7 +93,7 @@
 								</a>
 							</div>
 							<div class="col-md-4">
-								<a href="#">
+								<a href="#contact">
 									<div class="text-box">
 										<h3>
 											Our location
@@ -114,7 +114,7 @@
 						<div class="row">								
 							<div class="col-md-12">								
 								<div class="section center">										
-									<div class="head">
+									<div id="services" class="head">
 										<h2>We are at your services</h2>															
 									</div>									
 								</div>
@@ -215,7 +215,7 @@
 						<!--Section head-->
 						<div class="row">							
 							<div class="col-md-12">								
-								<div class="section center">																			
+								<div id="company-detail" class="section center">
 									<h2>Who we are</h2>																								
 								</div>
 							</div>
@@ -223,7 +223,27 @@
 						<!--Section-->
 						<div class="row">							
 							<div class="col-md-12">
-								<div class="section sub-section last">
+								<div class="section sub-section">
+									<div class="row">																		
+										<div class="col-md-12 col-xs-12">											
+											<p class="lead">
+												Our main goal is to build a strong company, which will be a major partner of the healthcare facilities as well as the leading force in the <strong>biomedical engineering</strong>, <strong>assistive technology</strong> and <strong>e-healthcare</strong>.
+											</p>
+											<p class="lead text-justify">												
+												Our company is a bridge between modern medicine and high-tech technologies. This connection provides a benefit to all who are interested in their health. Nowadays more and more people don't want to rely only on the standard healthcare system, but instead they want to participate on programs which can give them an opportunity to have a longer and better life.
+											</p>
+											<h3 class="text-center">
+												Technical leads
+											</h3>
+										</div>
+									</div>																		
+								</div>
+							</div>
+						</div>
+						<!--Section-->
+						<div class="row">							
+							<div class="col-md-12">
+								<div class="section sub-section">
 									<div class="row">																		
 										<div class="col-md-3 col-xs-12 text-center">											
 											<a href="#">
@@ -239,8 +259,7 @@
 										</div>									
 										<div class="col-md-9 col-xs-12">
 											<div class="head">
-												<h3>Petr Hunka</h3>
-												<p>Software Delivery</p>						
+												<h3>Petr Hunka, <small>Software Delivery</small></h3>
 											</div>
 											<div class="body">										
 												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
@@ -267,8 +286,7 @@
 										</div>									
 										<div class="col-md-9 col-xs-12">
 											<div class="head">
-												<h3>Vladimir Balco</h3>	
-												<p>Biomedical Engineering</p>					
+												<h3>Vladimir Balco, <small>Biomedical Engineering</small></h3>	
 											</div>
 											<div class="body">										
 												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
@@ -281,8 +299,8 @@
 						<!--Section head-->
 						<div class="row">							
 							<div class="col-md-12">								
-								<div class="section center">																			
-									<h2>Don't hesitate to contact us!</h2>																								
+								<div id="contact" class="section center">	
+									<h2>Don't hesitate to contact us!</h2>			
 								</div>
 							</div>
 						</div>
