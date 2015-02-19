@@ -11,6 +11,27 @@ body {
 body{
   padding-top: 82px;
 }
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto';
+}
+p {
+  font-family: 'Roboto';
+  font-weight: 200;
+  text-align: justify;
+}
+a img.main{
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+}
+span.anchor{
+  position: relative;
+  top: -84px;
+  display: block;
+  height: 0;
+  min-height: 0;
+}
+code {
+    font-size: 80%;
+}
 /* Wrapper for page content to push down footer */
 #wrap {
     min-height: 100%;
@@ -42,9 +63,7 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
-code {
-    font-size: 80%;
-}
+
 /*================================*/
 .navbar.c-navbar{
     background-color: transparent;
@@ -130,43 +149,22 @@ code {
 }
 .section.address{
 	color: #666;
-	background:#101010;	
+	background:#101010;
+  font-size: 0.85em;	
+  font-weight: 300;
 }
 .section.address .head{
 	margin-top: 0;	
 	margin-bottom: 0;	
 	padding-top: 15px;
 }
-.section.address .head h3{
-	font-weight: 300;
-	margin: 0;
-}
-.section.address .body  h3{
-	font-weight: 300;
-}
 .section.background{
 	background-image: url('../pics/head-c1.jpg');
 	min-height: 390px;
 }
-a img.main{
-  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
-}
-span.anchor{
-  position: relative;
-  top: -84px;
-  display: block;
-  height: 0;
-  min-height: 0;
-}
+
 /*================================*/
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Roboto';
-}
-p {
-  font-family: 'Roboto';
-  font-weight: 200;
-  text-align: justify;
-}
+
 
 /*================================*/
 #map-canvas {
